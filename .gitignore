@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (Crucial: Don't upload your local venv)
+venv/
+ENV/
+env/
+
+# Secrets & Config (Crucial: Protect your API keys)
+.env
+.secrets
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Databases (Don't upload your local SQLite or DB files)
+*.db
+*.sqlite
+
+# Data folder (If you store large CSVs/JSONs locally)
+data/
+
+# OS generated files
+.DS_Store
+Thumbs.db

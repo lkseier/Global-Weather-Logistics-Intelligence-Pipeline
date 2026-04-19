@@ -1,0 +1,17 @@
+# Data Manipulation
+pandas
+numpy
+
+# API & Web
+fastapi
+uvicorn[standard]
+requests
+
+# Database
+psycopg2-binary  # For PostgreSQL
+sqlalchemy       # The industry standard SQL toolkit for Python
+
+# Prototyping & Development
+jupyter
+pytest           # For your CI/CD tests
+python-dotenv    # To manage your API keys/secrets securely
