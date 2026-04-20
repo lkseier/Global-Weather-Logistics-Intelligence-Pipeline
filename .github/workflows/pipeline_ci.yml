@@ -30,4 +30,6 @@ jobs:
         # or use GitHub Secrets for the real one
         WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
       run: |
+        # This line adds the current directory to the Python Path
+        export PYTHONPATH=$PYTHONPATH:.
         pytest
